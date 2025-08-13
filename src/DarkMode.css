@@ -1,0 +1,20 @@
+.dark_mode {
+  position: absolute;
+  top: 70px;
+  right: 60px;
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: var(--tema-svg);
+  background-color: var(--text-color);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: 2px 2px;
+  border: 3px solid rgb(134, 137, 146);
+}
+
+.dark_mode:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+}

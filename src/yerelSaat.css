@@ -1,0 +1,86 @@
+.baskaArkaPlan {
+  position: relative;
+  background-color: var(--base-color);
+  overflow: visible;
+  height: 100px;
+  width: 420px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  text-align: center;
+  text-align: center;
+}
+
+.baslik {
+  padding: 30px;
+  padding-left: 45px;
+  color: var(--text-color);
+}
+
+.geri {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  background-image: url("./assets/backArrow.svg");
+  background-position: 2.5px 2.5px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid var(--secondary-color);
+}
+
+.asilSaat {
+  position: relative;
+  left: 20px;
+  width: 380px;
+  height: 180px;
+  color: var(--text-color);
+}
+
+.baskaSaat {
+  position: absolute;
+  top: 10px;
+  width: 160px;
+  height: 160px;
+  left: 15px;
+  font-size: 100px;
+  background-color: var(--clock-color);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+}
+
+.ikiNokta {
+  position: absolute;
+  top: 10px;
+  left: 175px;
+  width: 30px;
+  height: 80px;
+  font-size: 100px;
+}
+
+.dakika {
+  position: absolute;
+  top: 10px;
+  width: 160px;
+  height: 160px;
+  right: 15px;
+  font-size: 100px;
+  background-color: var(--clock-color);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+}
+
+.konum {
+  margin-top: 30px;
+  color: var(--text-color);
+}
+
+.tarihBilgi {
+  margin-top: 30px;
+  color: var(--text-color);
+}
+
+.geri:hover {
+  background-color: var(--hover-color);
+}
